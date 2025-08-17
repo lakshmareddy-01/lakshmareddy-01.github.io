@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lakshma Reddy Ambati | VLSI Portfolio</title>
   <style>
-    /* Dark Mode Theme */
+    /* ===== Global Dark Theme ===== */
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,34 +14,23 @@
     }
     header {
       text-align: center;
-      padding: 50px 20px;
-      background: linear-gradient(135deg, #0d47a1, #1976d2);
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #0b3d91, #1976d2);
       color: #fff;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      margin: 10px 0 0;
-      font-size: 1.2rem;
-    }
-    nav {
-      margin-top: 20px;
-    }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { margin: 10px 0 0; font-size: 1.2rem; }
+
+    nav { margin-top: 25px; }
     nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
+      color: #fff; text-decoration: none;
+      margin: 0 15px; font-weight: bold;
       transition: color 0.3s;
     }
     nav a:hover { color: #ff9800; }
 
     section {
-      max-width: 1000px;
-      margin: auto;
-      padding: 40px 20px;
+      max-width: 1000px; margin: auto; padding: 50px 20px;
       animation: fadeIn 1.5s ease;
     }
     h2 {
@@ -53,8 +42,8 @@
       background: #161b22;
       padding: 20px;
       margin: 20px 0;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
       transition: transform 0.3s;
     }
     .card:hover { transform: translateY(-5px); }
@@ -64,20 +53,29 @@
     footer {
       text-align: center;
       padding: 20px;
-      background: #0d47a1;
+      background: #0b3d91;
       margin-top: 40px;
       color: white;
     }
 
-    /* Animations */
+    /* Animation */
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
+
+    /* Contact Links Styling */
+    .contact a {
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact a:hover { color: #ff9800; }
   </style>
 </head>
 <body>
 
+  <!-- ===== Header ===== -->
   <header>
     <h1>Lakshma Reddy Ambati</h1>
     <p>VLSI Enthusiast | RTL | FPGA | Verification | Analog Layout</p>
@@ -90,14 +88,17 @@
     </nav>
   </header>
 
+  <!-- ===== About ===== -->
   <section id="about">
     <h2>About Me</h2>
     <div class="card">
-      <p>Hello! I’m a passionate <b>VLSI Enthusiastic Engineer</b> with strong knowledge in <b>Digital Electronics, Analog Electronics, RTL Design, FPGA Development, Verification, and Analog Layout</b>.  
-      I enjoy working with EDA tools, building RTL designs, verifying protocols, and exploring semiconductor technologies.</p>
+      <p>I am a passionate <b>VLSI Enthusiastic Engineer</b> with a strong foundation in 
+      <b>Digital Electronics, Analog Electronics, RTL Design, FPGA Development, Verification, and Analog Layout</b>. 
+      I enjoy solving hardware design challenges and working with cutting-edge EDA tools to bring digital circuits to life.</p>
     </div>
   </section>
 
+  <!-- ===== Skills ===== -->
   <section id="skills">
     <h2>Technical Skills</h2>
     <div class="card">
@@ -110,18 +111,20 @@
     </div>
   </section>
 
+  <!-- ===== Projects ===== -->
   <section id="projects">
     <h2>Projects</h2>
     <div class="card">
       <h3>1. UART Verification using SystemVerilog</h3>
-      <p>Developed a UART verification environment using SystemVerilog, verified functionality using QuestaSim and EDA Playground.</p>
+      <p>Developed and verified UART modules using SystemVerilog with QuestaSim and EDA Playground testbenches.</p>
     </div>
     <div class="card">
-      <h3>2. Verilog Design Projects</h3>
-      <p>Worked on multiple Verilog-based RTL designs and testbenches, to be updated soon on GitHub.</p>
+      <h3>2. Verilog Design Modules</h3>
+      <p>Worked on multiple Verilog-based RTL design projects including Dual Port RAM, to be updated soon on GitHub.</p>
     </div>
   </section>
 
+  <!-- ===== Internship ===== -->
   <section id="internship">
     <h2>Internship Experience</h2>
     <div class="card">
@@ -134,15 +137,18 @@
     </div>
   </section>
 
+  <!-- ===== Contact ===== -->
   <section id="contact">
     <h2>Contact</h2>
-    <div class="card">
-      <p><b>Email:</b> your.email@example.com</p>
-      <p><b>LinkedIn:</b> linkedin.com/in/yourprofile</p>
-      <p><b>GitHub:</b> github.com/lakshmareddy-01</p>
+    <div class="card contact">
+      <p><b>Email:</b> <a href="mailto:lakshma451@gmail.com">lakshma451@gmail.com</a></p>
+      <p><b>LinkedIn:</b> <a href="https://shorturl.at/pLR89" target="_blank">linkedin.com/in/lakshmareddyambati</a></p>
+      <p><b>Instagram:</b> <a href="https://instagram.com/a_l_reddy_1729" target="_blank">@a_l_reddy_1729</a></p>
+      <p><b>GitHub:</b> <a href="https://github.com/lakshmareddy-01" target="_blank">github.com/lakshmareddy-01</a></p>
     </div>
   </section>
 
+  <!-- ===== Footer ===== -->
   <footer>
     <p>© 2025 Lakshma Reddy Ambati | VLSI Portfolio</p>
   </footer>
